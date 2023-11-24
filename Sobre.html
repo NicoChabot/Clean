@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa de Limpeza XYZ</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #fff;
+            color: #333;
+        }
+        
+        header {
+            background-color: #001f3f;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin-top: 0;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        
+        #map {
+            height: 300px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #001f3f;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Empresa de Limpeza XYZ</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Serviço de Limpeza</h2>
+            <p>Nossa empresa oferece serviços de limpeza de alta qualidade para residências e empresas. Garantimos um ambiente limpo e saudável.</p>
+            <p>Preço: $50 por serviço</p>
+        </section>
+
+        <section>
+            <h2>História da Empresa</h2>
+            <p>Nossa empresa de limpeza XYZ foi fundada em 20XX com o objetivo de proporcionar soluções de limpeza eficientes e confiáveis para nossos clientes. Ao longo dos anos, construímos uma reputação sólida pela qualidade de nossos serviços.</p>
+        </section>
+
+        <section>
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para agendar um serviço de limpeza:</p>
+            <p>Email: contato@limpezaxyz.com</p>
+            <p>Telefone: (123) 456-7890</p>
+        </section>
+
+        <div id="map">Mapa do Google aqui (simulação)</div>
+
+        <!-- Simulação de Anúncios do Google -->
+        <div class="google-ads">
+            Anúncios do Google aqui (simulação)
+        </div>
+        </main>
+
+        <script>
+            // Código JavaScript para a simulação do Google Maps
+            // Certifique-se de substituir 'SUA_API_KEY_DO_GOOGLE_MAPS' pela sua chave real do Google Maps
+            function initMap() {
+                var mapOptions = {
+                    center: {
+                        lat: -23.550520,
+                        lng: -46.633308
+                    }, // Coordenadas de São Paulo, Brasil (exemplo)
+                    zoom: 12
+                };
+                var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+            }
+        </script>
+
+        <!-- Simulação de Conexão com a API do Google Maps -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=SUA_API_KEY_DO_GOOGLE_MAPS&callback=initMap" async defer></script>
+
+        <footer>
+            &copy; 2023 Empresa de Limpeza XYZ | Desenvolvido por Nicolás Chabot
+        </footer>
+</body>
+
+</html>
+
+</html>
